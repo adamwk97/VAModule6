@@ -9,7 +9,7 @@ colors = c("red","yellow","blue","green","orange")
 g1 = hist(mtcars$mpg, main='mtcars MPG', xlab = 'MPG',ylab = 'Frequency',col = colors)
 ```
 
-![graph1](C:/Users/adamw/Documents/Visual Analytics/Module 6/VA-Module-6_files/figure-markdown_github/unnamed-chunk-1-1.png)
+![graph1](C:/Users/adamw/Documents/Visual_Analytics/Module_6/VA-Module-6_files/figure-markdown_github/unnamed-chunk-1-1.png)
 
 ``` r
 g2 = boxplot(mtcars$mpg ~ mtcars$cyl, main = 'mtcars MPG',xlab='Number of Cylinders', ylab = 'MPG', col = colors,)
