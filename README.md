@@ -9,12 +9,12 @@ colors = c("red","yellow","blue","green","orange")
 g1 = hist(mtcars$mpg, main='mtcars MPG', xlab = 'MPG',ylab = 'Frequency',col = colors)
 ```
 
-![](VA-Module-6_files/figure-markdown_github/unnamed-chunk-1-1.png)
+![graph1](VA-Module-6_files/figure-markdown_github/unnamed-chunk-1-1.png)
 
 ``` r
 g2 = boxplot(mtcars$mpg ~ mtcars$cyl, main = 'mtcars MPG',xlab='Number of Cylinders', ylab = 'MPG', col = colors,)
 ```
 
-![](VA-Module-6_files/figure-markdown_github/unnamed-chunk-2-1.png)
+![graph2](VA-Module-6_files/figure-markdown_github/unnamed-chunk-2-1.png)
 
 The second graph I created is a boxplot of the dataset 'mtcars' showing the average MPG for each car subsetted by number of cylinders. I believe this graph is particularly useful because it gives a very clear visual representation of how many MPG a car would get depending on number of cylinders and even here the difference is plain to see.
