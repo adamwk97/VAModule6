@@ -1,7 +1,7 @@
 Visual Analytics Module 6 - Basic Graphing in R
 ================
 
-The first graph I have created is a simple bar chart depicting the number of cars in the 'mtcars' dataset that fit into each interval depending on MPG. While this graph may not be the most accurate or useful, it is an easy to read and simple graph that can get a basic point across.
+The first graph I have created is a simple bar chart depicting the number of cars in the 'mtcars' dataset that fit into each interval depending on MPG. While this graph may not be the most accurate or useful, it is an easy to read and simple graph that can get a basic point across. While this graph does not do a good job at portraying deviation analysis, it does make it relatively simple for readers to spot differences in how many cars fit into each MPG interval. 
 
 ``` r
 colors = c("red","yellow","blue","green","orange")
