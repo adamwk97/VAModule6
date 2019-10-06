@@ -17,4 +17,4 @@ g2 = boxplot(mtcars$mpg ~ mtcars$cyl, main = 'mtcars MPG',xlab='Number of Cylind
 
 ![graph2](./images/unnamed-chunk-2-1.png)
 
-The second graph I created is a boxplot of the dataset 'mtcars' showing the average MPG for each car subsetted by number of cylinders. I believe this graph is particularly useful because it gives a very clear visual representation of how many MPG a car would get depending on number of cylinders and even here the difference is plain to see.
+The second graph I created is a boxplot of the dataset 'mtcars' showing the average MPG for each car subsetted by number of cylinders. I believe this graph is particularly useful because it gives a very clear visual representation of how many MPG a car would get depending on number of cylinders and even here the difference is plain to see. This graph easily allows the reader to spot differences as well as clearly observe deviation analysis by making it plain to see the average MPG per car per amount of cylinders for the reader. 
